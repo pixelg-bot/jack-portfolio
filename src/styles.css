@@ -36,3 +36,4 @@ nav[aria-label="Main navigation"] a:last-child{justify-self:end}
 @media(max-width:767px){.all-services-block{padding-bottom:32px}footer{padding-top:56px}}
 .hero-heading{background-image:linear-gradient(180deg,#aeb8c6 0%,#f3f5f7 100%)}
 html{color-scheme:dark}
+@media(max-width:767px){.about{min-height:0;padding:56px 20px 72px}.about .decoration{display:none}}
