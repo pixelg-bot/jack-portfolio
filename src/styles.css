@@ -30,3 +30,6 @@ nav[aria-label="Main navigation"] a:last-child{justify-self:end}
 @media(min-width:1440px){.testimonial-spotlight{z-index:12}}
 @media(max-width:639px){footer{text-align:left}footer .live-button{margin-left:0;margin-right:auto;padding:10px 14px;font-size:10px;gap:8px}}
 @media(max-width:359px){footer .live-button{padding:8px;font-size:9px;gap:6px}.floating-contact{right:8px}}
+.project-name{min-width:0}
+.project-name h3{font-size:clamp(1.5rem,3.5vw,3.5rem);font-weight:600;text-wrap:balance;overflow-wrap:anywhere}
+@media(max-width:639px){.project-name h3{font-size:clamp(1.25rem,5.5vw,2rem)}}
